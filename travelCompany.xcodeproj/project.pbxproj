@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA6C3181FC577730078FFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6C3171FC577730078FFBB /* main.m */; };
+		6FA6C31B1FC577730078FFBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6C31A1FC577730078FFBB /* AppDelegate.m */; };
+		6FA6C31E1FC577730078FFBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6C31D1FC577730078FFBB /* ViewController.m */; };
+		6FA6C3211FC577730078FFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA6C31F1FC577730078FFBB /* Main.storyboard */; };
+		6FA6C3231FC577730078FFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA6C3221FC577730078FFBB /* Assets.xcassets */; };
+		6FA6C3261FC577730078FFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA6C3241FC577730078FFBB /* LaunchScreen.storyboard */; };
+		6FA6C32F1FC577870078FFBB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA6C32E1FC577870078FFBB /* libsqlite3.0.tbd */; };
+		6FA6C3321FC577D30078FFBB /* PicnicDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6C3311FC577D30078FFBB /* PicnicDB.m */; };
+		6FA6C3351FC578670078FFBB /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6C3341FC578670078FFBB /* myTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FA6C3131FC577730078FFBB /* travelCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA6C3171FC577730078FFBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FA6C3191FC577730078FFBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FA6C31A1FC577730078FFBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FA6C31C1FC577730078FFBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FA6C31D1FC577730078FFBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FA6C3201FC577730078FFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FA6C3221FC577730078FFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FA6C3251FC577730078FFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FA6C3271FC577730078FFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA6C32E1FC577870078FFBB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6FA6C3301FC577D30078FFBB /* PicnicDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PicnicDB.h; path = ../PicnicDB.h; sourceTree = "<group>"; };
+		6FA6C3311FC577D30078FFBB /* PicnicDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PicnicDB.m; path = ../PicnicDB.m; sourceTree = "<group>"; };
+		6FA6C3331FC578670078FFBB /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myTableViewCell.h; path = ../myTableViewCell.h; sourceTree = "<group>"; };
+		6FA6C3341FC578670078FFBB /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myTableViewCell.m; path = ../myTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA6C3101FC577730078FFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA6C32F1FC577870078FFBB /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA6C30A1FC577730078FFBB = {
+			isa = PBXGroup;
+			children = (
+				6FA6C3151FC577730078FFBB /* travelCompany */,
+				6FA6C3141FC577730078FFBB /* Products */,
+				6FA6C32D1FC577870078FFBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA6C3141FC577730078FFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6C3131FC577730078FFBB /* travelCompany.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA6C3151FC577730078FFBB /* travelCompany */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6C3191FC577730078FFBB /* AppDelegate.h */,
+				6FA6C31A1FC577730078FFBB /* AppDelegate.m */,
+				6FA6C31C1FC577730078FFBB /* ViewController.h */,
+				6FA6C31D1FC577730078FFBB /* ViewController.m */,
+				6FA6C31F1FC577730078FFBB /* Main.storyboard */,
+				6FA6C3221FC577730078FFBB /* Assets.xcassets */,
+				6FA6C3241FC577730078FFBB /* LaunchScreen.storyboard */,
+				6FA6C3271FC577730078FFBB /* Info.plist */,
+				6FA6C3301FC577D30078FFBB /* PicnicDB.h */,
+				6FA6C3311FC577D30078FFBB /* PicnicDB.m */,
+				6FA6C3331FC578670078FFBB /* myTableViewCell.h */,
+				6FA6C3341FC578670078FFBB /* myTableViewCell.m */,
+				6FA6C3161FC577730078FFBB /* Supporting Files */,
+			);
+			path = travelCompany;
+			sourceTree = "<group>";
+		};
+		6FA6C3161FC577730078FFBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6C3171FC577730078FFBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FA6C32D1FC577870078FFBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6C32E1FC577870078FFBB /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA6C3121FC577730078FFBB /* travelCompany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA6C32A1FC577730078FFBB /* Build configuration list for PBXNativeTarget "travelCompany" */;
+			buildPhases = (
+				6FA6C30F1FC577730078FFBB /* Sources */,
+				6FA6C3101FC577730078FFBB /* Frameworks */,
+				6FA6C3111FC577730078FFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = travelCompany;
+			productName = travelCompany;
+			productReference = 6FA6C3131FC577730078FFBB /* travelCompany.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA6C30B1FC577730078FFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pranjal;
+				TargetAttributes = {
+					6FA6C3121FC577730078FFBB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FA6C30E1FC577730078FFBB /* Build configuration list for PBXProject "travelCompany" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA6C30A1FC577730078FFBB;
+			productRefGroup = 6FA6C3141FC577730078FFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA6C3121FC577730078FFBB /* travelCompany */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA6C3111FC577730078FFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA6C3261FC577730078FFBB /* LaunchScreen.storyboard in Resources */,
+				6FA6C3231FC577730078FFBB /* Assets.xcassets in Resources */,
+				6FA6C3211FC577730078FFBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA6C30F1FC577730078FFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA6C31E1FC577730078FFBB /* ViewController.m in Sources */,
+				6FA6C3321FC577D30078FFBB /* PicnicDB.m in Sources */,
+				6FA6C31B1FC577730078FFBB /* AppDelegate.m in Sources */,
+				6FA6C3181FC577730078FFBB /* main.m in Sources */,
+				6FA6C3351FC578670078FFBB /* myTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FA6C31F1FC577730078FFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA6C3201FC577730078FFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA6C3241FC577730078FFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA6C3251FC577730078FFBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA6C3281FC577730078FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FA6C3291FC577730078FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA6C32B1FC577730078FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = travelCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranjal.travelCompany;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FA6C32C1FC577730078FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = travelCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranjal.travelCompany;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA6C30E1FC577730078FFBB /* Build configuration list for PBXProject "travelCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA6C3281FC577730078FFBB /* Debug */,
+				6FA6C3291FC577730078FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA6C32A1FC577730078FFBB /* Build configuration list for PBXNativeTarget "travelCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA6C32B1FC577730078FFBB /* Debug */,
+				6FA6C32C1FC577730078FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA6C30B1FC577730078FFBB /* Project object */;
+}
